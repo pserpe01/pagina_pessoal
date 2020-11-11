@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="Styles/style.css">
-
-<title>Quem sou eu</title>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="Styles/style.css">
+		<title>Quem sou eu</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Página Inicial</a>
-        <a href="quem_sou_eu.html">Quem sou eu</a>
-        <a href="hobbies.html">Hobbies</a>
-        <a href="formacao.html">Formação</a>
-        <a href="portfolio.html">Portfólio</a>
-        <a href="contacto.html">Contactos</a>
-    </nav>
-    <br>
-    <P>Olá, chamo-me Pedro Serpe, tenho 18 anos e sou de Setúbal.</P> 
-    <aside>
-        <img src="Imagens/Eu.jpg" width="20%">
-    </aside>
+<div class="navbar">
+    <a href="index.html" class="selecionado">Página Inicial</a>
+	<a href="quem_sou_eu.html">Quem sou eu</a>
+    <a href="formacao.html">Formação</a>
+    <a href="portfolio.html">Portfólio</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="contacto.html">Contactos</a>
+</div>
+<div id="body">
+	<div class="container card">
+		<div class="card__img"><img src="Imagens/Eu.jpg" alt="Foto Pessoal"></div>
+			<div class="card__profile">
+				<div class="title">
+					<h1>Pedro Serpe</h1>
+					<p>Programador de Sistemas Informáticas</p>
+				</div>
+				<div class="subhead">
+					<small><i class="fa fa-globe-asia"></i> Setúbal, Portugal</small>
+					<small><i class="fa fa-calendar"></i> Novembro, 2020</small>        
+				</div>
+				<div class="content">
+					<small>Olá, chamo-me Pedro Serpe e tenho 19 anos. Entrei neste curso superior em 2020 e estou a adquirir bastante conhecimento na área. </small>
+				</div>
+			</div>
+	</div>
+</div>
 </body>
 </html>

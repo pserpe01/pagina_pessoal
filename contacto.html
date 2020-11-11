@@ -8,17 +8,51 @@
 <title>Contacto</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Página Inicial</a>
-        <a href="quem_sou_eu.html">Quem sou eu</a>
-        <a href="hobbies.html">Hobbies</a>
-        <a href="formacao.html">Formação</a>
-        <a href="portfolio.html">Portfólio</a>
-        <a href="contacto.html">Contactos</a>
-    </nav>
-<p>As formas de me contactar são por email.
-    <br>
-    O meu email é 200210004@estudantes.ips.pt
-</p>
+<div class="navbar">
+    <a href="index.html" class="selecionado">Página Inicial</a>
+	<a href="quem_sou_eu.html">Quem sou eu</a>
+    <a href="formacao.html">Formação</a>
+    <a href="portfolio.html">Portfólio</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="contacto.html">Contactos</a>
+</div>
+<div id="bodyy">
+<div class="contenar">
+  <div class="row header">
+	<center>
+    <h1>CONTACTO &nbsp;</h1>
+    <h3>Tem alguma duvida ou algum problema? Mande um email e nós ajuda-mo-lo!</h3>
+	</center>
+  </div>
+  <div class="row body">
+    <form action="#">
+      <ul>
+        
+        <li>
+          <p class="left">
+            <label for="first_name">Primeiro Nome</label>
+            <input type="text" name="first_name" placeholder="Pedro" />
+          </p>
+          <p class="left">
+            <label for="last_name">Ultimo Nome</label>
+            <input type="text" name="last_name" placeholder="Serpe" />      
+          </p>
+        </li>
+        
+        <li>
+          <p>
+            <label for="email">email <span class="req">*</span></label>
+            <input type="email" name="email" placeholder="john.smith@gmail.com" />
+          </p>
+        </li>                
+        <li>
+          <input class="btn btn-submit" type="submit" value="Submit" />
+        </li>
+        
+      </ul>
+    </form>  
+  </div>
+</div>
+</div>
 </body>
 </html>
